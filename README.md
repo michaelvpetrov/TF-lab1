@@ -9,7 +9,7 @@
 + Handles HTTPS traffic with SSL certificates.
 + Forwards requests to an application container.
 
-###Application Container:
+### Application Container:
 + Runs a simple HTTP server using the hashicorp/http-echo image.
 + Responds with "Hello, World!" when accessed.
 
