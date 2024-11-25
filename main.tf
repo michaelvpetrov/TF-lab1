@@ -47,12 +47,12 @@ resource "docker_container" "nginx" {
   }
 
   volumes {
-    host_path      = "/home/michael/projects/tf/lab1.1/nginx/nginx.conf"
+    host_path      = "[CHANGE_PATH_TO]/TF-lab1/nginx/nginx.conf"
     container_path = "/etc/nginx/nginx.conf"
   }
 
   volumes {
-    host_path      = "/home/michael/projects/tf/lab1.1/ssl"
+    host_path      = "[CHANGE_PATH_TO]/TF-lab1/ssl"
     container_path = "/etc/nginx/ssl"
   }
 

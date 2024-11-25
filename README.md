@@ -53,6 +53,8 @@ Follow the instructions at Terraform's official website.
 > git clone <repository_url>
 > cd <repository_directory>
 
+**Replace [CHANGE_PATH_TO] in __main.tf__ to full path to the folder**
+
 ### Step 2: Initialize Terraform
 **Run the following command to initialize Terraform and download required providers:**
 > terraform init
@@ -103,12 +105,12 @@ To destroy the environment and stop all containers, run:
 
 ## File Structure
 
-.
-├── main.tf               # Terraform configuration file
-├── nginx/
-│   ├── nginx.conf            # Custom NGINX configuration
-├── ssl/
-│   ├── nginx.crt         # Self-signed SSL certificate
-│   └── nginx.key         # SSL private key
-├── .gitignore            # Git ignore rules
-└── README.md             # Project documentation
+>.
+>├── main.tf               # Terraform configuration file
+>├── nginx/
+>│   ├── nginx.conf            # Custom NGINX configuration
+>├── ssl/
+>│   ├── nginx.crt         # Self-signed SSL certificate
+>│   └── nginx.key         # SSL private key
+>├── .gitignore            # Git ignore rules
+>└── README.md             # Project documentation
