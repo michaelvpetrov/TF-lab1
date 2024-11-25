@@ -1,0 +1,14 @@
+# Terraform files
+terraform.tfstate          # State file (contains sensitive information)
+terraform.tfstate.backup   # Backup of the state file
+*.tfvars                   # Variables files (often contain sensitive data like passwords)
+.terraform/                # Terraform working directory
+crash.log                  # Crash logs from Terraform
+
+
+# SSL Certificates
+ssl/nginx.key                 # Private key (sensitive!)
+ssl/nginx.crt                 # Certificate file (optional, if generated dynamically)
+
+# Other
+*.lock                        # Lock files (e.g., Terraform, npm, or yarn)
