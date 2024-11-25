@@ -104,7 +104,7 @@ To destroy the environment and stop all containers, run:
 
 
 ## File Structure
-
+```
 >.
 >├── main.tf               # Terraform configuration file
 >├── nginx/
@@ -114,3 +114,4 @@ To destroy the environment and stop all containers, run:
 >│   └── nginx.key         # SSL private key
 >├── .gitignore            # Git ignore rules
 >└── README.md             # Project documentation
+```
