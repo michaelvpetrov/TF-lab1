@@ -78,7 +78,7 @@ When prompted, type yes to confirm.
 **Access the Application**
 Test HTTPS:
 
->curl -k https://myapp.local
+>curl -k https://myapp.local:8080
 
 You should see the response:
 - Hello, World!
